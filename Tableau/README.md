@@ -1,8 +1,6 @@
 # Tableau
 
-Tableau es un software capaz de visualizar datos de forma interactiva. Para ello se ha conectado con la base de datos de cáculo de Google.
-
-Gracias a los datos proporcionados en las bases de datos, se han identificado que datos son los más interesantes para más tarde graficarlos. 
+Tableau es un software capaz de visualizar datos de forma interactiva. Para ello se ha conectado con la base de datos de cáculo de Google y después de haber identificado los datos más interesantes, se han graficado. 
 
 El Tableau se puede visualizar:
 
