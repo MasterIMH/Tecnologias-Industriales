@@ -89,8 +89,10 @@ def asPublish(client, Ascensores, topic, i):
         print(f"Failed to send message to topic {topic}")
     time.sleep(randint(0,10))
 ```
+
 </br>
 Por ultimo se ejecuta para que comienze el envio de los datos
+
 ```ruby
 def run():
     client = connect_mqtt()
