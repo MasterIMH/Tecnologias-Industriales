@@ -6,17 +6,17 @@ Nuesta practica ha consistido en seguir el siguiente diagrama de flujo:
 
 [1 Simulacion en timepo real](https://github.com/MasterIMH/Tecnologias-Industriales/tree/main/1%20Simulacion%20en%20timepo%20real/)
 
-2 MOSQUITTO
+[2 Mosquitto](https://github.com/MasterIMH/Tecnologias-Industriales/tree/main/2%20MOSQUITTO)
 
-3 Node-Red
+[3 Node-Red](https://github.com/MasterIMH/Tecnologias-Industriales/tree/main/3%20Node-Red)
  
-4 InfluxDB
+[4 InfluxDB](https://github.com/MasterIMH/Tecnologias-Industriales/tree/main/4%20InfluxDB)
 
-5 WebDataConnector
+[5 WebDataConnector](https://github.com/MasterIMH/Tecnologias-Industriales/tree/main/5%20WebDataConnector)
 
-Tableau
+[Tableau](https://github.com/MasterIMH/Tecnologias-Industriales/tree/main/Tableau)
 
-Web
+[Web](https://github.com/MasterIMH/Tecnologias-Industriales/tree/main/Web)
 
 
 
