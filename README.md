@@ -18,6 +18,6 @@ Nuesta practica ha consistido en seguir el siguiente diagrama de flujo:
 
 [7 Web](7%20Web)
 
-[Presentación Izarra Center]
+[Presentación Izarra Center](PresentacionIzarraCenter.pdf)
 
 
