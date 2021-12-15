@@ -8,6 +8,6 @@ El Tableau se puede visualizar:
 
 
 
-![alt text](Tecnologias-Industriales/Tableau/TABLEAU.png)
+![alt text](https://github.com/MasterIMH/Tecnologias-Industriales/blob/main/Tableau/TABLEAU.PNG)
 
 
