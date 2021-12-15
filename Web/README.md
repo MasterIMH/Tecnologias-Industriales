@@ -24,7 +24,7 @@
 ### - Tableau: Para introducir el Dashboard the Tableau en el html se siguen los siguientes pasos. 
 ### En la ventana "Servidor" se selecciona "Tableau Public" y "Guardar en Tableau Public como..."
 
-![alt text](https://github.com/MasterIMH/Tecnologias-Industriales/blob/main/Tableau/TABLEAU.PNG)
+![alt text](https://github.com/MasterIMH/Tecnologias-Industriales/blob/main/Web/Screenshot%202021-12-15%2016.25.08.png)
 
 ### Se cambia el nombre si es preciso y se hace click en "Guardar".
 
