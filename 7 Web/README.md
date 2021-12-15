@@ -2,8 +2,8 @@
 ## DESCARGAR ZIP CON PLANTILLAS
 ### En [github](https://github.com/learning-zone/website-templates) se descarga el archivo zip con todas las plantillas disponibles. Para ello se hace click en el botón "Code" y se seleciona "Donwload Zip".
 
-![alt text](https://github.com/MasterIMH/Tecnologias-Industriales/blob/main/Web/UNO.JPG)
-![alt text](https://github.com/MasterIMH/Tecnologias-Industriales/blob/main/Web/DOS.JPG)
+![alt text](https://github.com/MasterIMH/Tecnologias-Industriales/blob/main/7%20Web/UNO.JPG)
+![alt text](https://github.com/MasterIMH/Tecnologias-Industriales/blob/main/7%20Web/DOS.JPG)
 
 ## SELECCIÓN DE PLANTILLA PARA LA PÁGINA WEB
 ### Se elige la plantilla de la página web, en este caso se opta por la plantilla [fitness-zone-html5-bootstrap-responsive-web-template](https://github.com/learning-zone/website-templates/tree/master/fitness-zone-html5-bootstrap-responsive-web-template).
@@ -16,21 +16,21 @@
 ### Elementos incorporados en la página web:
 ### - Maqueta 3D: En [SketctFab](https://sketchfab.com/search?q=ascensor&type=models) se busca "ascensor" en la barra de busqueda. Se selecciona la maqueta "Maqueta ascensor Ermua" y se copia el código tal y como se muestra a continuación:
 
-![alt text](https://github.com/MasterIMH/Tecnologias-Industriales/blob/main/Web/TRES.JPG)
-![alt text](https://github.com/MasterIMH/Tecnologias-Industriales/blob/main/Web/CUATRO.JPG)
+![alt text](https://github.com/MasterIMH/Tecnologias-Industriales/blob/main/7%20Web/TRES.JPG)
+![alt text](https://github.com/MasterIMH/Tecnologias-Industriales/blob/main/7%20Web/CUATRO.JPG)
 
 ### El código copiado se pega dentro del código html.
 
 ### - Tableau: Para introducir el Dashboard the Tableau en el html se siguen los siguientes pasos. 
 ### En la ventana "Servidor" se selecciona "Tableau Public" y "Guardar en Tableau Public como..."
 
-![alt text](https://github.com/MasterIMH/Tecnologias-Industriales/blob/main/Web/Screenshot%202021-12-15%2016.25.08.png)
+![alt text](https://github.com/MasterIMH/Tecnologias-Industriales/blob/main/7%20Web/Screenshot%202021-12-15%2016.25.08.png)
 
 ### Se cambia el nombre si es preciso y se hace click en "Guardar".
 
-![alt text](https://github.com/MasterIMH/Tecnologias-Industriales/blob/main/Web/Screenshot%202021-12-15%2016.25.46.png)
+![alt text](https://github.com/MasterIMH/Tecnologias-Industriales/blob/main/7%20Web/Screenshot%202021-12-15%2016.25.46.png)
 
 ### Se abre una ventana "Share" para seleccionar la forma de compartir el Daschboard. Se copia la primera opción, "Embeded Code" y este se pega dentro del código html.
 
-![alt text](https://github.com/MasterIMH/Tecnologias-Industriales/blob/main/Web/Screenshot%202021-12-15%2016.26.38.png)
+![alt text](https://github.com/MasterIMH/Tecnologias-Industriales/blob/main/7%20Web/Screenshot%202021-12-15%2016.26.38.png)
 
