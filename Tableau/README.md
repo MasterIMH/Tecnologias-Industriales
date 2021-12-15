@@ -10,7 +10,7 @@ Para comenzar se ha sumado el número total de personas, las subidas y las bajad
 
 Explicación de las gráficas:
 
-    1 - Número de personas por ascensor. 
-    2 - Temperatura y Humedad media de cada ascensor, diferenciando los ejes verticales. A la izquierda está la Temperatura y a la derecha la Humedad.
+    1 - Número total de personas por ascensor. 
+    2 - Temperatura y Humedad media de cada ascensor, diferenciandolos en los ejes verticales. A la izquierda está la Temperatura y a la derecha la Humedad.
     3 - En esta gráfica se muestran las anomalías por las horas en los diferentes ascensores. En este caso, se puede ver que horas son las que se deben inspeccionar.
     4,5,6 - El paso de personas por horas que se les ha dado a los distintos ascensores. 
