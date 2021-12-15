@@ -6,6 +6,8 @@ Gracias a los datos proporcionados en las bases de datos, se han identificado qu
 
 El Tableau se puede visualizar:
 
+<img src="/docs/logo.png" alt="My cool logo"/>
+
 
 
 
