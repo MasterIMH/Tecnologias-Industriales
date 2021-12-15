@@ -6,7 +6,7 @@ Para instalarlo se han realizado los siguientes pasos:
 
 ### Primero  se actualiza la raspberry y se instala el cliente y el broker msoquitto
 
-```ruby
+```
 sudo apt update
 sudo apt upgrade
 sudo apt install mosquitto mosquitto-clients
@@ -16,7 +16,7 @@ sudo apt install mosquitto mosquitto-clients
 ### Una vez instalado comprobamos que esta en ejecución 
 
 
-```ruby
+```
 sudo systemctl status mosquitto
 ```
 
