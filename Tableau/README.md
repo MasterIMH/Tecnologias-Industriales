@@ -6,9 +6,8 @@ Gracias a los datos proporcionados en las bases de datos, se han identificado qu
 
 El Tableau se puede visualizar:
 
-<img src="Tecnologias-Industriales/Tableau/TABLEAU.png" alt="My cool logo"/>
 
 
-
+![alt text](Tecnologias-Industriales/Tableau/TABLEAU.png)
 
 
