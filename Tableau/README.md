@@ -1,11 +1,9 @@
 # Tableau
 
-Nuesta practica ha consistido en seguir el siguiente diagrama de flujo:
+Tableau es un software capaz de visualizar datos de forma interactiva. Para ello se ha conectado con la base de datos con las hojas de cáculo de Google.
 
-1 - Conectar la base de datos con las hojas de cálculo de Google para poder tener los datos
+Gracias a los datos proporcionados en las bases de datos, se han identificado que datos son los más interesantes para más tarde graficarlos. 
 
-2 - Identificar y saber que datos se quieren graficar
+El Tableau se puede visualizar:
 
-3 - Se han creado 6 diferentes gráficos
 
-4 - 
