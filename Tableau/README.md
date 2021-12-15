@@ -6,8 +6,13 @@ Gracias a los datos proporcionados en las bases de datos, se han identificado qu
 
 El Tableau se puede visualizar:
 
-
-
 ![alt text](https://github.com/MasterIMH/Tecnologias-Industriales/blob/main/Tableau/TABLEAU.PNG)
 
+Para comenzar se ha sumado el número total de personas, las subidas y las bajadas que han pasado por los tres diferentes ascensores.
 
+Explicación de las gráficas:
+
+    1 -  
+    2 - 
+    3 - 
+    4,5,6 -
