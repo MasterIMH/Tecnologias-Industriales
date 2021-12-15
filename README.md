@@ -14,9 +14,9 @@ Nuesta practica ha consistido en seguir el siguiente diagrama de flujo:
 
 [5 WebDataConnector](https://github.com/MasterIMH/Tecnologias-Industriales/tree/main/5%20WebDataConnector)
 
-[6 Tableau](https://github.com/MasterIMH/Tecnologias-Industriales/tree/main/Tableau)
+[6 Tableau](https://github.com/MasterIMH/Tecnologias-Industriales/tree/main/6%20Tableau)
 
-[7 Web](https://github.com/MasterIMH/Tecnologias-Industriales/tree/main/Web)
+[7 Web](https://github.com/MasterIMH/Tecnologias-Industriales/tree/main/7%20Web)
 
 
 

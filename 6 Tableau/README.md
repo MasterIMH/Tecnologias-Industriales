@@ -4,7 +4,7 @@ Tableau es un software capaz de visualizar datos de forma interactiva. Para ello
 
 El Tableau se puede visualizar:
 
-![alt text](https://github.com/MasterIMH/Tecnologias-Industriales/blob/main/Tableau/TABLEAU.PNG)
+![alt text](https://github.com/MasterIMH/Tecnologias-Industriales/blob/main/6%20Tableau/TABLEAU.PNG)
 
 Para comenzar se ha sumado el número total de personas, las subidas y las bajadas que han pasado por los tres diferentes ascensores.
 

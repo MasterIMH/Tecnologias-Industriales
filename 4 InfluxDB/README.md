@@ -12,7 +12,7 @@ Para usar influx se ha intentado utilizado una raspberry. En primera instancia u
 Por ello se ha obtado por instalarlo localmente. Ha sido costoso encontrar una compilación compatible con ARM.
 Finalemente se ha encontrado el siguiente repostitorio:
 
-``` ruby
+``` 
 curl https://repos.influxdata.com/influxdb.key | gpg --dearmor | sudo tee /usr/share/keyrings/influxdb-archive-keyring.gpg >/dev/null
 
 echo "deb [signed-by=/usr/share/keyrings/influxdb-archive-keyring.gpg] https://repos.influxdata.com/debian $(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/influxdb.list
@@ -30,9 +30,10 @@ sudo systemctl start influxdb
 
 Tras ello se ha creado la base de datos:
 
-```ruby
+```
 CREATE DATABASE ascensores
 ```
 Y listo la base de datos esta en fucninamiento.
+
 ![INFLUX](https://user-images.githubusercontent.com/95297676/146226950-28ffa4d4-0c20-4593-a8a5-316aae1b678c.png)
 
