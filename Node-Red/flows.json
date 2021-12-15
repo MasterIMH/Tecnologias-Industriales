@@ -1,0 +1,481 @@
+[
+    {
+        "id": "4e8f3adc.8366c4",
+        "type": "tab",
+        "label": "TeamGorkaMariaAitor",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "eb2441d2895ab770",
+        "type": "mqtt in",
+        "z": "4e8f3adc.8366c4",
+        "name": "",
+        "topic": "Ascensor1",
+        "qos": "1",
+        "datatype": "json",
+        "broker": "fef05a30f61495d5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 140,
+        "y": 260,
+        "wires": [
+            [
+                "b4e73ad20fb8d511"
+            ]
+        ]
+    },
+    {
+        "id": "25a759c99a9b8883",
+        "type": "mqtt in",
+        "z": "4e8f3adc.8366c4",
+        "name": "",
+        "topic": "Ascensor2",
+        "qos": "1",
+        "datatype": "json",
+        "broker": "fef05a30f61495d5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 140,
+        "y": 340,
+        "wires": [
+            [
+                "1787cb53ad4478f1"
+            ]
+        ]
+    },
+    {
+        "id": "fb4427883508eac5",
+        "type": "mqtt in",
+        "z": "4e8f3adc.8366c4",
+        "name": "",
+        "topic": "Ascensor3",
+        "qos": "1",
+        "datatype": "json",
+        "broker": "fef05a30f61495d5",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 140,
+        "y": 420,
+        "wires": [
+            [
+                "ad79a957301537fa"
+            ]
+        ]
+    },
+    {
+        "id": "bb1fdcf634bf916b",
+        "type": "influxdb out",
+        "z": "4e8f3adc.8366c4",
+        "influxdb": "45dcab33cb19b4fa",
+        "name": "Influxx",
+        "measurement": "Datos",
+        "precision": "",
+        "retentionPolicy": "",
+        "database": "ascensores",
+        "precisionV18FluxV20": "s",
+        "retentionPolicyV18Flux": "",
+        "org": "organisation",
+        "bucket": "bucket",
+        "x": 690,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "d3467732af7fae48",
+        "type": "debug",
+        "z": "4e8f3adc.8366c4",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 710,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "db5005cded4eb154",
+        "type": "mqtt out",
+        "z": "4e8f3adc.8366c4",
+        "name": "",
+        "topic": "Ascensor2",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "fef05a30f61495d5",
+        "x": 330,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "0e0aaecb0f25c2bc",
+        "type": "inject",
+        "z": "4e8f3adc.8366c4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{ \"Fecha\": \"2021-12-15T16:00:00Z\",         \"Piso\": 0,         \"Viaje\": \"bajada\",         \"Personas\": 2,         \"Subidas\": 0,         \"Bajadas\": 2,         \"Anomalias\": 0,         \"Temperatura\": 24,         \"Humedad\": 83.0,         \"Presi\\u00f3n\": 1023}",
+        "payloadType": "json",
+        "x": 130,
+        "y": 100,
+        "wires": [
+            [
+                "db5005cded4eb154"
+            ]
+        ]
+    },
+    {
+        "id": "59ae1d8cb70f85ec",
+        "type": "change",
+        "z": "4e8f3adc.8366c4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.Ascensor",
+                "pt": "msg",
+                "to": "\"Ascensor1\"",
+                "tot": "jsonata"
+            },
+            {
+                "t": "delete",
+                "p": "payload.Fecha",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 580,
+        "wires": [
+            [
+                "7ffe5cb128a9fe36"
+            ]
+        ]
+    },
+    {
+        "id": "f2322b47b5514842",
+        "type": "inject",
+        "z": "4e8f3adc.8366c4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{ \"Fecha\": \"2021-12-15T16:00:00Z\",         \"Piso\": 0,         \"Viaje\": \"bajada\",         \"Personas\": 2,         \"Subidas\": 0,         \"Bajadas\": 2,         \"Anomalias\": 0,         \"Temperatura\": 24,         \"Humedad\": 83.0,         \"Presi\\u00f3n\": 1023}",
+        "payloadType": "json",
+        "x": 150,
+        "y": 580,
+        "wires": [
+            [
+                "69d8b96166aa1e35"
+            ]
+        ]
+    },
+    {
+        "id": "69d8b96166aa1e35",
+        "type": "json",
+        "z": "4e8f3adc.8366c4",
+        "name": "",
+        "property": "payload",
+        "action": "obj",
+        "pretty": false,
+        "x": 290,
+        "y": 580,
+        "wires": [
+            [
+                "59ae1d8cb70f85ec"
+            ]
+        ]
+    },
+    {
+        "id": "7ffe5cb128a9fe36",
+        "type": "debug",
+        "z": "4e8f3adc.8366c4",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 670,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "1787cb53ad4478f1",
+        "type": "change",
+        "z": "4e8f3adc.8366c4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.Ascensor",
+                "pt": "msg",
+                "to": "\"Ascensor2\"",
+                "tot": "jsonata"
+            },
+            {
+                "t": "delete",
+                "p": "payload.Fecha",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 340,
+        "wires": [
+            [
+                "bb1fdcf634bf916b",
+                "d3467732af7fae48"
+            ]
+        ]
+    },
+    {
+        "id": "b4e73ad20fb8d511",
+        "type": "change",
+        "z": "4e8f3adc.8366c4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.Ascensor",
+                "pt": "msg",
+                "to": "\"Ascensor1\"",
+                "tot": "jsonata"
+            },
+            {
+                "t": "delete",
+                "p": "payload.Fecha",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 260,
+        "wires": [
+            [
+                "bb1fdcf634bf916b",
+                "d3467732af7fae48"
+            ]
+        ]
+    },
+    {
+        "id": "ad79a957301537fa",
+        "type": "change",
+        "z": "4e8f3adc.8366c4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.Ascensor",
+                "pt": "msg",
+                "to": "\"Ascensor3\"",
+                "tot": "jsonata"
+            },
+            {
+                "t": "delete",
+                "p": "payload.Fecha",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 400,
+        "y": 420,
+        "wires": [
+            [
+                "bb1fdcf634bf916b",
+                "d3467732af7fae48"
+            ]
+        ]
+    },
+    {
+        "id": "88497c657527a13e",
+        "type": "mqtt out",
+        "z": "4e8f3adc.8366c4",
+        "name": "",
+        "topic": "Ascensor1",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "fef05a30f61495d5",
+        "x": 330,
+        "y": 40,
+        "wires": []
+    },
+    {
+        "id": "e72a724af6f75407",
+        "type": "mqtt out",
+        "z": "4e8f3adc.8366c4",
+        "name": "",
+        "topic": "Ascensor3",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "fef05a30f61495d5",
+        "x": 330,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "b990cd392b5b8eed",
+        "type": "inject",
+        "z": "4e8f3adc.8366c4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{ \"Fecha\": \"2021-12-15T16:00:00Z\",         \"Piso\": 0,         \"Viaje\": \"bajada\",         \"Personas\": 2,         \"Subidas\": 0,         \"Bajadas\": 2,         \"Anomalias\": 0,         \"Temperatura\": 24,         \"Humedad\": 83.0,         \"Presi\\u00f3n\": 1023}",
+        "payloadType": "json",
+        "x": 130,
+        "y": 160,
+        "wires": [
+            [
+                "e72a724af6f75407"
+            ]
+        ]
+    },
+    {
+        "id": "63e1241c0ddb379e",
+        "type": "inject",
+        "z": "4e8f3adc.8366c4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{ \"Fecha\": \"2021-12-15T16:00:00Z\",         \"Piso\": 0,         \"Viaje\": \"bajada\",         \"Personas\": 2,         \"Subidas\": 0,         \"Bajadas\": 2,         \"Anomalias\": 0,         \"Temperatura\": 24,         \"Humedad\": 83.0,         \"Presi\\u00f3n\": 1023}",
+        "payloadType": "json",
+        "x": 130,
+        "y": 40,
+        "wires": [
+            [
+                "88497c657527a13e"
+            ]
+        ]
+    },
+    {
+        "id": "fef05a30f61495d5",
+        "type": "mqtt-broker",
+        "name": "Pruebas",
+        "broker": "casaeibar.ddns.net",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "sessionExpiry": ""
+    },
+    {
+        "id": "45dcab33cb19b4fa",
+        "type": "influxdb",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "protocol": "http",
+        "database": "database",
+        "name": "ASCENSORES",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "1.8-flux",
+        "url": "http://casaeibar.ddns.net:8086",
+        "rejectUnauthorized": false
+    }
+]
